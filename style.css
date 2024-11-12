@@ -458,12 +458,13 @@ button:hover {
 }
 មេ{
     display: flex;
+    padding: 2rem 15rem;
 }
 
 .តុ{
     border-collapse: collapse;
     width: 86%;
-    margin-left: 100px;
+    margin: auto;
 }
 
 .kon_renderer1{
