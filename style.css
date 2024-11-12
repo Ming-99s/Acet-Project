@@ -462,7 +462,8 @@ button:hover {
 
 .តុ{
     border-collapse: collapse;
-    width: 100%;
+    width: 86%;
+    margin-left: 100px;
 }
 
 .kon_renderer1{
