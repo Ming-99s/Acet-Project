@@ -266,51 +266,18 @@ header.navbar.scroll{
     }
     
 }
-.container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap; */
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.UpperText {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.headText1 {
-    font-size: 40px;
-    font-weight: bolder;
-    color: #11284c;
-}
-.headText2 {
-    font-size: 16px;
-    color: #9195A2;
-    padding-top: 10px;
-}
-.line {
-    justify-self: center;
-    background-color: rgb(216, 69, 43);
-    margin-top: 40px;
-    padding: 2px 3rem;
-}
-.MainBox1 {
-    position: relative;
-}
 .MainContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #11284c;
-    margin-right: 35rem;
     color: white;
     font-weight: bold;
     font-size: 20px;
-    width: 600px;
-    clip-path: polygon(80% 0, 100% 25%, 100% 0%, 100% 100%, 20% 100%, 0 70%, 0 0);
-    padding: 30px;
-    margin-top: 50px;   
+    clip-path: polygon(90% 0, 100% 15%, 100% 0%, 100% 100%, 15% 100%, 0 80%, 0 0);
+    margin-top: 50px; 
+    padding: 20px 30px 50px 30px;
+    
 }
 h1 {
     font-size: 30px;
@@ -319,6 +286,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
     gap: 2rem;
@@ -347,31 +315,22 @@ button:hover {
     transform: scale(1.1);
     color: white;
 }
-.SideBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 .box2 {
-    position: absolute;
-    top: 16%;
-    left: 46.8%;
-    width: 650px;
-    height: 250px;
+    min-width: 400px;
+    height: 100%;
     background-image: url("web-pic-09.png");
     background-size: cover; 
     clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 100%, 0% 100%);
     z-index: -1;
 }
 .BorderBox {
-    padding: 5px;
-    position: absolute;
-    top: 13.5%;
-    left: 46.8%;
+    margin-top: 2rem;
+    margin-left: -9rem;
+    padding: 10px;
     background-color: #11284c;
-    width: 650px;
-    height: 260px;
+    width: 670px;
+    height: 320px;
     clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 100%, 0% 100%);
     z-index: -10;
 }
