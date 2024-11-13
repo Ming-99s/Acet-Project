@@ -303,7 +303,7 @@ header.navbar.scroll{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #11284c;
-    color: white;
+    color: white;   
     font-weight: bold;
     font-size: 20px;
     clip-path: polygon(90% 0, 100% 15%, 100% 0%, 100% 100%, 15% 100%, 0 80%, 0 0);
@@ -409,10 +409,8 @@ button:hover {
         width: 150px;
         flex-grow: 1;
         a {
-            display: flex; 
-            flex-direction: column;
+            display: inline; 
             color: white;
-            text-decoration: none;
             font-size: 1.2rem;
             transition: 0.3s;
             line-height: 30px;
@@ -425,9 +423,6 @@ button:hover {
         }
         div{
             line-height: 30px;
-            a{
-                display: inline;
-            }
         }
         p {
             color: white;
