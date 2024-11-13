@@ -453,6 +453,29 @@ button:hover {
         height: 200px;
     }
 }
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    margin: 1rem 0;
+    color: rgba(128, 128, 128, 0.7);
+    font-weight: 400;
+    
+    .idriNcadt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        .idriLogo, .cadtLogo {
+            width: 300px;
+        }
+        .idriLogo {
+            height: 100px;
+        }
+    }
+}
 
 
 .footer {
