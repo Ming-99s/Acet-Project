@@ -223,7 +223,7 @@ header.navbar.scroll{
 
 #img-side{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 4rem;
     flex-wrap: wrap;
     .img{
