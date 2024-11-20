@@ -618,101 +618,94 @@ button:hover {
     padding: 4rem 15rem;
     margin-top: 5%;
     background-color: #11284C;
+    h2{
+        text-align: center;
+    }
  }
  .Opening{
     text-align: center;
     color: white;
     font-size: 32px;
     font-weight: 800;
-    margin-bottom: 16px !important;
+    margin-bottom: 16px;
  }
  .desription{
     text-align: center;
-    color: #9195a2 !important;
+    color: #9195a2;
  }
 .line{
     background-color: red;
  }
-
-  h1, h2, p {
-    margin: 0;
-    text-align: center;
-  }
   
-  .section-title{
+.section-title{
     margin: 3rem 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
   }
 
-  .chairs{
+.chairs{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
     gap: 2rem; 
     color: white;
+    h2,p{
+        font-weight: 300;
+    }
 
 }
 .reviewers{
     font-weight: 200;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
     gap:2rem;
-    #left{
-        display: flex;
-        gap: 2rem; 
-        flex-wrap: wrap;
-
-    }
     h2{
         font-weight: 300;
     }
 
 }
-    .card:hover{
-        transform: scale(1.1);
-    }
+.card:hover{
+    transform: scale(1.03);
+}
 
-
-  .card {
+.card {
     transition: 0.5s;
     background-color: #183456; 
     padding: 1.5rem;
-    /* text-align: center; */
-    width: 320px;
+    text-align: center;
     position: relative;
-  }
-  
-  .card::before {
+}
+
+.card::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     width: 20px;
     height: 20px;
-    background-color: #11284c;
+    background-color: #11284c;   
     clip-path: polygon(0 0, 100% 0, 100% 100%);
-  }
+}
   
-  .card h2 {
+.card h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-  }
+}
   
-  .card p {
+.card p {
     font-size: 0.875rem;
     color: #ffffff; 
-  }
-  .chairs{
+}
+.chairs{
     display: flex;
     justify-content: center;
     margin-top: 5%;
     .card{
         flex-grow: 1;
     }
-  }
+}
 
 
