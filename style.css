@@ -98,23 +98,24 @@ header.navbar.scroll{
     }
 }
 #container-one{
-    height: 100vh;
     margin-top: -5rem;
     background-image: url(ACET_Main_Page_Edited_1.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 90vh;
     #box-text{
         animation: pop 1.5s;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        width: 1000px;
         color: white;
         h1{
-            font-size: 4rem;
+            font-size: 3rem;
+
             span{
                 color: rgb(253, 51, 51);
                 text-transform: uppercase;
@@ -170,7 +171,6 @@ header.navbar.scroll{
 #container-two{
     padding: 2rem 10%;
     position: relative;
-    margin-top: -4rem;
     background-color: #11284c;
     overflow: hidden;
     color:white;
@@ -204,7 +204,7 @@ header.navbar.scroll{
     }
     .text-side{
         p{
-            font-size: 1.5rem;
+            font-size: clamp(1rem , 1.3rem , 2rem);
             font-weight: 300;
             span{
                 font-weight: bold;
@@ -222,13 +222,17 @@ header.navbar.scroll{
 }
 
 #img-side{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 0 2rem;
+    justify-content: center;
     margin-top: 4rem;
-    flex-wrap: wrap;
     .img{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         opacity: 0;
-        transform: translateX(-200%);
+        transform: translateX(-130%);
         transition: 1s;
         p{
             font-weight: bold;
@@ -704,13 +708,13 @@ button:hover {
 }
 
 
-@media screen and (width<=1423px){
-    .reviewers{
-        grid-template-columns: repeat(1,1fr);
+@media screen and (max-width: 1423px) {
+    .reviewers {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .committees{
-        .card{
-            clip-path: polygon(0 0, 95% 0, 100% 30%, 100% 100%, 0% 100%);        
+    .committees {
+        .card {
+            clip-path: polygon(0 0, 95% 0, 100% 30%, 100% 100%, 0% 100%);
         }
     }
 }
