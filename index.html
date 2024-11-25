@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
@@ -11,6 +13,11 @@
                 <div class="logo">
                     <img  src="https://www.idri.edu.kh/wp-content/uploads/2024/06/CADT10-IDRI-Logo.webp">
                 </div>
+                <input type="checkbox" id="check" hidden>
+                <label for="check">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
                 <nav id="link">
                     <ul id="link-one">
                         <li><a class="not-drop-down" href="#">About</a></li>
@@ -32,22 +39,28 @@
         <main>
             <section id="container-one">
                 <div id="box-text">
-                    <h1>Connecting <span>Asean</span></h1> 
-                    <h1>Researchers for Digital Research</h1>
-                    <p>November 7-8, 2024</p>
-                    <button>Submit Your Paper   <i class="fa-solid fa-paperclip"></i></button>
+                    <div class="text">
+                        <img class="background two" src="https://www.idri.edu.kh/wp-content/uploads/2024/06/about-us-background.png">
+                        <div class="latter">
+                            <h1>Connecting <span>Asean</span></h1>
+                            <h1>Researchers for Digital Research</h1>
+                            <p>November 7-8, 2024</p>
+                            <button>Submit Your Paper   <i class="fa-solid fa-paperclip"></i></button>
+                        </div>
+                    </div>
                 </div>
             </section >
             
             <section id="container-two">
-                <img id="background" src="https://www.idri.edu.kh/wp-content/uploads/2024/06/about-us-background.png">
+                <h1>About Us</h1>
                 <div class="text-side">
-                    <h1>About Us</h1>
-                    <p id="margin-text">ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers’ knowledge and Building applications for smarter societies.</p>
+                    <br>
+                    <p>ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers’ knowledge and Building applications for smarter societies.</p>
                     <br>
                     <p><span>RESEARCH</span>, <span>SHARE</span>, <span>CONNECT</span> : Bringing together researchers from local and international communities through a forum for academicians, professionals, and researchers to discuss and exchange research results, innovative ideas, and experiences, fostering advancements in the field.</p>
                 </div>
-                <br>
+                <img class="background" src="https://www.idri.edu.kh/wp-content/uploads/2024/06/about-us-background.png">
+                <br><br>
                 <div id="bottom-text">
                 <h1>4 Specified Research Track</h1>                    
                     <div id="img-side">
@@ -74,11 +87,14 @@
                     <h1>Conference Journey</h1>
                     <br><br>
                     <div id="box-img">
-                        <img src="https://www.idri.edu.kh/wp-content/uploads/2024/08/Timeline-Updated-Desktop-scaled.webp">
+                        <div class="img one"><img src="https://www.idri.edu.kh/wp-content/uploads/2024/08/Timeline-Updated-Desktop-scaled.webp"></div>
+                        <div class="img two"><img src="https://www.idri.edu.kh/wp-content/uploads/2024/08/Timeline-Updated-Mobile-scaled.webp"></div>
+
                     </div>
                 </div>
             </section>
         </main>
+
 
         <div class="container">
             <div class="UpperText">
