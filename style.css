@@ -747,18 +747,23 @@ button:hover {
     font-size: 1.5rem;
 }
 
-មេ{
-    width: 80%;
+.មេ {
     display: flex;
-    padding: 2rem 15rem;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: hidden; /* Adjust overflow settings for the parent */
 }
 
 .តុ{
-    border-collapse: collapse;
-    width: 86%;
     margin: auto;
+    width: 1800px;
+    border-collapse: collapse;
+    overflow-x: auto;
+    min-width: 1800px;
     padding: 10px;
 }
+
 
 .kon_renderer1{
     text-align: center;
