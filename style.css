@@ -783,6 +783,7 @@ button:hover {
 }
 
 .hour{
+    color: #000;
     text-align: center;
     font-size: 16px;
 }
@@ -791,10 +792,12 @@ button:hover {
     font-size: 19px;
     padding: 20px;
     font-weight: lighter;
+    color: #000;
     text-wrap: wrap;
 }
 
 .italic_ff{
+    color: #000;
     font-size: 15px;
     font-style: italic;
     font-weight: 300;
